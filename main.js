@@ -1,4 +1,4 @@
-status = "";
+                                                                                                                                                                                                                                                                                                                                                                        status = "";
 img ="";
 resul = [];
 function preload()
@@ -28,18 +28,18 @@ function draw()
             stroke("#FF0000");
             rect(resul[i].x, resul[i].y, resul[i].width, resul[i].height);
        }
-    }
-    fill("red");
-    text("dog", 100, 100);
-    stroke("red");
-    noFill();
-    rect(150, 150, 250, 250);
+     }
+//     fill("red");
+//     text("dog", 100, 100);
+//     stroke("red");
+//     noFill();
+//     rect(150, 150, 250, 250);
 
-    noFill();
-    stroke("red");
-    rect(250, 200, 100, 100);
-    fill("red");
-    text("cat", 250, 210);
+//     noFill();
+//     stroke("red");
+//     rect(250, 200, 100, 100);
+//     fill("red");
+//     text("cat", 250, 210);
 }
 function moadLoaded()
 {
